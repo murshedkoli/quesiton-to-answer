@@ -69,11 +69,12 @@ border-bottom: 1px solid black;
    
 }
 
-.answerarea input{
+.answerarea .answerField{
     width: 80%;
     min-height: 100px;
     padding: 10px;
     border-radius: 10px;
+    font-size: 20px;
 }
 
 .answerarea button{
