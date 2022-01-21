@@ -19,12 +19,28 @@ export default function Sidebar() {
                                 Admin Panel
                             </li>
                         </NavLink>
+                        <NavLink to='/home' className='menuLink' activeClassName="active">
+                            <li className="sidebarListItem">
+                                <Settings className='sidebarIcon' />
+                                User Home
+                            </li>
+                        </NavLink>
+
+                        <NavLink to='/singlequestions' className='menuLink' activeClassName="active">
+                            <li className="sidebarListItem">
+                                <Settings className='sidebarIcon' />
+                                Single quesiton
+                            </li>
+                        </NavLink>
+
                         <NavLink to='/permission' className='menuLink' activeClassName="active">
                             <li className="sidebarListItem">
                                 <Settings className='sidebarIcon' />
                                 Permission
                             </li>
                         </NavLink>
+
+
                         <NavLink to='/layout' className='menuLink' activeClassName="active">
                             <li className="sidebarListItem">
                                 <ViewCompact className='sidebarIcon' />
