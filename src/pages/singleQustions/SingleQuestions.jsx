@@ -28,7 +28,7 @@ export default function SingleQuestions() {
                 </div>
 
                 <div className="answerarea">
-                    <input type="answer" />
+                    <textarea type="answer" > </textarea>
                     <button >Answer</button>
                 </div>
 
