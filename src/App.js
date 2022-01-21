@@ -5,6 +5,8 @@ import './app.css';
 import Home from './pages/home/Home';
 import UserList from './pages/UserList/UserList';
 import { Routes, Route } from "react-router-dom";
+import PublicHome from './pages/publicHome/PublicHome';
+import SingleQuestions from './pages/singleQustions/SingleQuestions';
 
 
 
@@ -18,8 +20,9 @@ export default function App() {
 
         <Routes>
           <Route path="/dashboard" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/home" element={<PublicHome />} />
           <Route path="/user" element={<UserList />} />
+          <Route path="/singlequestions" element={<SingleQuestions />} />
         </Routes>
 
       </div>

@@ -1,0 +1,45 @@
+.publicHome{
+    flex: 4;
+}
+
+.questionBody{
+    margin: 0 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.11);
+-webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.11);
+-moz-box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.11);
+}
+
+
+.mainQuestions{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.userInfoInQuestions{
+    text-align: center;
+}
+.questionText{
+    margin-left: 20px;
+}
+
+.questionBody .profileOnQuestions{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.tags{
+    display: flex;
+}
+
+.tags a{
+    padding: 2px;
+}
+
+.tags a::after{
+    content: ",";
+}

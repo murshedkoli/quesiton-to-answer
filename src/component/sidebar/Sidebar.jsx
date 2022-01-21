@@ -16,7 +16,7 @@ export default function Sidebar() {
                         <NavLink to='/dashboard' className='menuLink' activeClassName="active">
                             <li className="sidebarListItem ">
                                 <Dashboard className='sidebarIcon' />
-                                Home
+                                Admin Panel
                             </li>
                         </NavLink>
                         <NavLink to='/permission' className='menuLink' activeClassName="active">
