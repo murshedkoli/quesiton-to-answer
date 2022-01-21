@@ -1,0 +1,68 @@
+.widgetLg{
+    flex: 2;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: -2px 1px 44px -2px rgb(0 0 0 / 16%);
+-webkit-box-shadow: -2px 1px 44px -2px rgb(0 0 0 / 16%);
+-moz-box-shadow: -2px 1px 44px -2px rgb(0 0 0 / 16%);
+}
+
+.widgetLgTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profilePicLg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.widgetLgList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.widgetLgListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 1px solid #555;
+padding: 10px;
+}
+
+.WidgetLgUser{
+    margin-left: 20px;
+    width: 100%;
+display: flex;
+justify-content: space-around;   
+}
+
+.widgetLgAnswered{
+    font-weight: 600;
+    flex: 1;
+}
+.widgetLgUserTitle{
+    font-weight: 300;
+}
+
+.widgetLgButton{
+    display: flex;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    padding: 7px 10px ;
+    color:#555;
+    background-color: #eeeef7;
+    cursor: pointer;
+}
+
+.widgetLgIcon{
+    font-size: 16px;
+    margin-right: 5px;
+}

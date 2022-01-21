@@ -2,18 +2,26 @@ import * as React from 'react';
 import Sidebar from './component/sidebar/Sidebar';
 import Topbar from './component/topbar/Topbar';
 import './app.css';
+import Home from './pages/home/Home';
+import UserList from './pages/UserList/UserList';
+import { Routes, Route } from "react-router-dom";
 
 
 
 
 export default function App() {
   return (
-    <div><Topbar />
+    <div className="App">
+      <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="othersContainer">
-          somethings
-        </div>
+
+        <Routes>
+          <Route path="/dashboard" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/user" element={<UserList />} />
+        </Routes>
+
       </div>
 
     </div>

@@ -6,6 +6,12 @@
     display: flex;
 }
 
-.othersContainer{
-    flex: 4;
+.active{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 250);
+
 }
